@@ -1,0 +1,212 @@
+@font-face {
+	font-family: 'BARLOW';
+	src: url(https://www.fontsquirrel.com/fonts/barlow);
+}
+body {
+position: static;
+width: 1600px;
+height: 1200px;
+background: #EFF6FF;
+font-family: 'BARLOW', sans-serif;
+font-weight: 500;
+color: #2A4A5C;
+}
+.left {
+position: absolute;
+left: 0;
+top: 0;
+width: 50%;
+height: 1000px;
+margin: 20px;
+/* background-image: url(img/bg.jpg), url(img/logo.svg);
+background-repeat: no-repeat, no-repeat;
+background-position-x: left, left;
+background-position-y: top, top;
+background-attachment: local, local;
+background-size: 100% */
+}
+.right {
+position: absolute;
+right: 0;
+top: 0;
+width: 739px;
+height: 1000px;
+background-color: white;
+margin: 20px;
+}
+.bg {
+	position: absolute;
+}
+.logo {
+	position: absolute;
+	left: 40px;
+    top: 40px;
+}
+.active {
+	position: absolute;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	padding-left: 80px;
+	padding-right: 0px;
+}
+a {
+	color: #3698FB;
+}
+h1,h2, h3, h4, h5 {
+	font-weight: inherit;
+}
+h5{
+	color: #96A5B1;
+	margin-top: 30px;
+}
+h4 {
+	color: #7B8A92;
+	margin-top: -10px;
+}
+h3 {
+	margin-top: -10px;
+}
+button {
+	color:white;
+}
+button, .tel, .email{
+	width: 250px;
+	height: 40px;
+}
+.buttonFB p, .buttonIN p {
+	margin-right: 0px;
+	margin-top: 10px;
+}
+.buttonFB {
+	background:#255A9B;
+	background-image: url("img/facebook.svg");
+	background-repeat: no-repeat;
+	background-size: 25px;
+	background-position: 4px 4px;	
+}
+.buttonIN {
+	background:#0076B6;
+	background-image: url("img/linkedin.svg");
+	background-repeat: no-repeat;
+	background-size: 25px;
+	background-position: 10px 2px;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+.inbox {
+	width: 250px;
+	padding: 5px;
+	background-color: white;
+	border: 1px solid;
+	margin-top: 25px;
+}
+
+.buttonInEnd {
+	background:#3698FB; /* Цвет фона */
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-top: 30px;
+	border: 1px;
+}
+hr:nth-of-type(1) {
+position: absolute;
+margin-left: -115px;
+}
+hr:nth-of-type(2) {
+	position: absolute;
+	margin-left: 40px;
+	margin-top: -10px;
+	}
+.OR {
+	margin-left: 265px;
+	margin-top: 65px;
+}
+.emailPhone label:nth-of-type(1) {
+	position: absolute;
+	top: 391px;
+	left: 90px;
+	z-index: 1;
+	}
+.emailPhone label:nth-of-type(2) {
+		position: absolute;
+		top: 391px;
+		left: 395px;
+		z-index: 1;
+		}
+input[type="email"], input[type="tel"], input[type="tel"]:active, input[type="tel"]:hover, input[type="tel"]:focus {
+	border: none;
+	outline: none;
+}
+.emailPhone {
+	margin-top: 50px;
+}
+.tel {
+	border: 1px solid gray;
+	padding-left: 10px;
+	margin-left: -10px;
+	margin-top: -4px;
+}
+.email {
+	border-top: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+	border-left: 2px solid #0076B6;
+	margin-left: -11px;
+	margin-top: -4px;
+	padding-left: 10px;
+	}
+input[type="email"] {
+	margin-top: 29px;
+	margin-left: 8px;
+	width: 250px;
+	}
+input[type="tel"] {
+	margin-left: 40px;
+	width: 250px;
+	margin-left: 47px;
+}
+h2{
+	margin-top: 50px;
+}
+h3 {
+	font-size: 18px;
+}
+h1 {
+	margin-top: 30px;
+}
+span {
+	position: absolute;
+	margin-top: 27px;
+	margin-left: 8px;
+	width: 12px;
+	height: 12px;
+	border: 1px solid gray;
+	border-radius: 50%;
+}
+span p {
+	margin-left: 5px;
+	margin-top: 0px;
+	font-size: 8px;
+	color: gray;
+}
+   input[type="radio"] {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+input[type="radio"]:not(:first-of-type) {
+	margin-left: 50px;
+}
+input[type="radio"] + label {
+	margin-left: 10px;
+}
+input[type="radio"]:not(:checked) {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 50%;
+}
+input[type="radio"]:checked {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 50%;
+	}
