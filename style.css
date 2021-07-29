@@ -20,13 +20,7 @@ body {
 	width: 50%;
 	height: 1000px;
 	margin: 20px;
-	/* background-image: url(img/bg.jpg), url(img/logo.svg);
-background-repeat: no-repeat, no-repeat;
-background-position-x: left, left;
-background-position-y: top, top;
-background-attachment: local, local;
-background-size: 100% */
-}
+	}
 
 .right {
 	position: absolute;
